@@ -1,0 +1,93 @@
+.loginMainDiv{
+    background: url('../../../public/loginimages.gif');
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+  
+  .loginDiv {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    height: 300px;
+
+  }
+.loginBtn {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 96%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .loginBtn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  
+  .loginBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 90%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+background: none;
+backdrop-filter: inherit;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(124, 20, 20, 0.1);
+backdrop-filter: blur(5px);
+
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-toggle-btn {
+    position: absolute;
+    top: 42%;
+    right: 20px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
