@@ -25,7 +25,7 @@ const Login = () => {
 
   const handleLogin = () => {
     console.log('Logging in with:', formData);
-    // Here you can add your login logic, e.g., API calls, etc.
+   
   };
 
   return (
